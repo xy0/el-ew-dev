@@ -1,12 +1,62 @@
 <?php ter_template_comment(__FILE__) ?>
+<div class="ew-squares">
+	<div class="square">
+	   <div class="content">
+	        <div class="table">
+	            <div class="table-cell">
+	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <div class="text">
+	                	Buisness <i class='fa fa-caret-right'></i>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="square">
+	   <div class="content">
+	        <div class="table">
+	            <div class="table-cell">
+	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <div class="text">
+	                	Homes <i class='fa fa-caret-right'></i>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="square">
+	   <div class="content">
+	        <div class="table">
+	            <div class="table-cell">
+	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <div class="text">
+	                	Service Providers <i class='fa fa-caret-right'></i>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="square">
+	   <div class="content">
+	        <div class="table">
+	            <div class="table-cell">
+	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <div class="text">
+	                	Efficiency Resources <i class='fa fa-caret-right'></i>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+
 <article id="post-0" class="page type-page hentry">
 	<div class="entry-content">
-		<?php the_content() ?>
-		<div class="row">
-			<div class="col-sm-12">
-				<h3><em>content-home.php</em></h3>
-				<p>This is the <em>content-home-page.php</em> template. This template has hard-coded content below the dynamic content printed by Wordpress. Just remove this HTML if you don't need additional hard-coded HTML. An alternative would be to just create your own home page template with a content template to boot.</p>
-			</div>
+		<div class="col-sm-4">
+			<img src="http://i.imgur.com/UJDN55U.jpg" height="100%"/>
+		</div>
+		<div class="col-sm-8">
+			<?php the_content() ?>
 		</div>
 	</div><!-- .entry-content --> 
 </article><!-- #post-0 -->

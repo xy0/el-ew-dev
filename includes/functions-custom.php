@@ -34,8 +34,6 @@ $ter_child_shortcodes = array('[gray-box]' => 'A gray box with rounded corners')
 $ter_child_help = array('Help Section Title' => '<p>This is a paragraph of help text</p>','Help Section Title 2' => '<p>This is a paragraph of help text 2</p>');
 */
 
-/* <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~< A-Train Admin Branding >~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> */
-
  // Remove autoP
 //
 #remove_filter('the_content', 'wpautop');
@@ -48,6 +46,9 @@ add_action( 'ew_counter', 'ew_enqueue_script' );
 //
 wp_enqueue_style( 'font-awesome', '/wp-content/themes/terra-jr/lib/font-awesome-4.7.0/css/font-awesome.min.css');
 wp_enqueue_script( 'ew_counter', '/wp-content/themes/terra-jr/js/jquery.counterup.js', array('ter_waypoints') );
+
+
+/* <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~< A-Train Admin Branding >~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> */
 
 /* Login Styles ~~> */
 function ter_login_styles(){
