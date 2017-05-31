@@ -1,0 +1,298 @@
+/*
+Theme Name: Terra Jr
+Theme URI: https://github.com/hyptx/terra-jr
+Author: Adam J Nowak
+Author URI: http://hyperspatial.com
+Description: A Terra Theme Child
+Version: 3.3.6.0
+License: GNU General Public License
+Tags: html5,child theme,responsive,bootstrap,awesome
+Template: terra
+*/
+
+/* Main ~~~~> */
+/* Header ~~~~> */
+/* Nav ~~~~> */
+/* Home ~~~~> */
+/* Content ~~~~> */
+/* Sidebar ~~~~> */
+/* Footer ~~~~> */
+
+/* Nav ~~~~> */
+/* Quick Customization - Remove for default Bootstrap >~~~~~~~~> */
+.ter-navbar,.ter-navbar .slide-collapse{background:#f8f8f8}/* Nav BG */
+.ter-navbar .navbar-nav li{font-size:16px}/* Container font size */
+.ter-navbar .navbar-nav > li.level-0 > a{font-size:1.2em; padding:10px 15px 10px 15px}/* Level-0 */
+.ter-navbar .navbar-nav .level-1 > li.level-1 > a{font-size:1.1em; padding:10px 15px 10px 25px}/* Level-1 */
+.ter-navbar .navbar-nav .level-2 > li.level-2 > a{font-size:1em; padding:10px 15px 10px 10px}/* Level-2 */
+.ter-navbar .navbar-nav .level-3 > li.level-3 > a{font-size:.9em; padding:10px 15px 10px 10px}/* Level-3 */
+.ter-navbar .navbar-nav .sub-menu{padding:0; border-bottom:1px solid #eee; background:#fff}/* Sub menu styling */
+.ter-navbar .navbar-nav .sub-menu.level-3{border-bottom:1px solid #f8f8f8}/* Level-3 sub menu styling */
+.ter-navbar ul.level-2,.ter-navbar ul.level-3{list-style-type:circle}/* Sub menu list style */
+.ter-navbar .sub-menu.level-2{padding-left:45px}/* Level-2 Ul Padding */
+.ter-navbar .sub-menu.level-3{padding-left:25px}/* Level-3 Ul Padding */	
+.ter-navbar .navbar-toggle:hover,.ter-navbar .navbar-toggle:active,.ter-navbar .navbar-toggle:focus{background:#e6e6e6; transition:background .4s; -webkit-transition:background .4s}/* Menu button */
+#page .ter-navbar .navbar-nav  li > a{color:#777; transition:all .4s; -webkit-transition:all .4s}/* Link Color */	
+#page .ter-navbar .navbar-nav  li > a:hover,.ter-navbar .navbar-nav  li > a:focus{color:#333}/* Link hover highlighting */	
+.ter-navbar .navbar-nav > .open > a,.ter-navbar .navbar-nav > .open > a:hover,.ter-navbar .navbar-nav > .open > a:focus{background:#e6e6e6; color:#333}/* Dropdown Link Highlighting */
+.ter-navbar .navbar-nav .open .dropdown-menu > .active > a,.ter-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,.ter-navbar .navbar-nav .open .dropdown-menu > .active > a:focus,.ter-navbar .navbar-nav .current-menu-item > a{background:#f9f9f9; color:#333}/* Current highlighting */
+/* <~~~~~~~~< END Quick Customization */
+
+/* Footer ~~~~> */
+#colophon .footer-nav-row a{transition:color .4s; -webkit-transition:color .4s}
+
+/* Min Width Media Queries >~~~~~~~~> */
+@media (min-width: 480px){
+	
+}
+
+@media (min-width: 768px){
+	/* Quick Customization - Remove for default Bootstrap >~~~~~~~~> */
+	.dropdown-menu{min-width:200px}
+	.ter-navbar .navbar-nav li{font-size:14px}/* Container font size */
+	.ter-navbar .navbar-nav li.level-0 > a{padding:15px 18px}/* Level-0 padding */
+	.ter-navbar .navbar-nav li.level-0.current-menu-item > a{color:#333; background:#e6e6e6}/* Level-0 current highlighting */
+	.ter-navbar .navbar-nav .level-1 > li.level-1 > a{padding:4px 10px}/* Level-1 padding */
+	.ter-navbar .navbar-nav .level-2 > li.level-2 > a{padding:4px 10px 4px 6px}/* Level-2 padding */
+	.ter-navbar .navbar-nav .level-3 > li.level-3 > a{padding:4px 10px 4px 6px}/* Level-3 padding */
+	.ter-navbar .navbar-nav .dropdown-menu.sub-menu{background:#fff; border:1px solid rgba(0,0,0,.09)}/* Dropdown Style */
+	.ter-navbar .navbar-nav .sub-menu > li > a:hover,.ter-navbar .navbar-nav .sub-menu > li > a:focus{color:#333; background:#f9f9f9}/* Dropdown Hover Highlight */
+	.ter-navbar .navbar-nav .sub-menu{margin-bottom:6px; padding-bottom:6px; border-bottom:1px solid #eee; background:#fff}/* Sub menu Styling */
+	.ter-navbar .navbar-nav .sub-menu.level-3{border-bottom:1px solid #f8f8f8}/* Level-3 sub menu styling */
+	.ter-navbar .sub-menu.level-2{padding-left:25px}/* Level-2 Ul Padding */
+	.ter-navbar .sub-menu.level-3{padding-left:20px}/* Level-3 Ul Padding */
+	/* <~~~~~~~~< END Quick Customization */	
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+/* <~~~~~~~~< END Min Width Media Queries */
+
+/* Max Width Media Queries >~~~~~~~~> */
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 479px){
+
+}
+
+
+/*                                             */
+/*  Custom modifications for Efficiency Works  */
+/*											   */
+.navbar-nav {
+	float:right;
+}
+
+/*  4 panel square span  */
+.ew-squares {
+	position:relative;
+	min-width:400px;
+}
+.ew-squares .square:hover {
+	background-color: #EEEEEE;
+}
+.ew-squares .square {
+    float:left;
+    position: relative;
+    width: 25%;
+    padding-bottom : 25%;
+    margin:0 0 4em 0;
+    overflow:hidden;
+}
+.ew-squares .content {
+    position:absolute;
+    height:100%;
+    width:100%;
+    padding: 5%;
+}
+.ew-squares .table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.ew-squares .table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+.ew-squares .content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+.ew-squares .text{
+	width:100%;
+	padding:1em;
+	background-color: #00d2ff;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+/*  fast facts with numbers  */
+.ew-stats{
+	background-color:lightblue;
+	font-weight: bold;
+}
+.ew-stats .number{
+	width:100%;
+	font-size:58pt;
+	text-align: center;
+}
+.ew-stats .description{
+	width:100%;
+	text-align: center;
+}
+
+.ew-yellow {
+	background-color: #ffae00;
+}
+.ew-blue {
+	background-color: #00d2ff;
+}
+
+.ew-button {
+	font-size:15pt;
+	font-weight: bold;
+	padding: .3em 3em;
+	color: white;
+	border-radius: 0;
+	margin-top:3em;
+}
+
+/*  Slider  */
+.ew-slider-bg{
+	background:url('http://ew.fyn.host/wp-content/uploads/2017/05/tempbg.jpg') no-repeat center center;
+}
+.ew-slides {
+	padding:100px 0 66px 0;
+	color:white;
+}
+.ew-slide-left {
+	background-color: rgba(38, 55, 71, 1);
+	height:400px;
+	text-align: left;
+	margin-left: 5em;
+}
+.ew-slide-left ul{
+	list-style-type:none; 
+}
+.ew-slide-left ul a{
+	color: lightblue;
+}
+
+.ew-slide-right {
+	background-color:darkblue;
+	height:400px;
+	/*opacity:.7;*/
+	background-color: rgba(38, 55, 71, 0.8);
+	text-align: left;
+}
+
+/*  footer  */
+.ew-footer-head {
+	font-weight: bold;
+	font-size: 15pt;
+	border-bottom: 3px solid grey;
+	margin-right: 30px;
+}
+
+#colophon {
+	background: #263747;
+}
+
+#colophon a{
+	color:white;
+}
+
+#colophon a:hover{
+	color:grey;
+}
+
+/*  menu  */
+.navbar-default {
+	border:none;
+}
+.navbar {
+	min-height:0;
+}
+.navbar-default{
+	border-bottom: 10px solid #00d2ff;
+}
+.ter-navbar, .ter-navbar .slide-collapse {
+	background: #263747;
+}
+#page .ter-navbar .navbar-nav li > a {
+	padding-bottom: 0;
+	padding-top:.5em;
+	color:white;
+	background: #00d2ff;
+	top: 7px;
+}
+#page .ter-navbar .navbar-nav > li:first-of-type {
+	border-bottom: 35px solid #00d2ff;
+	border-left: 12px solid transparent;
+	height: 0;
+	top: 7px;
+}
+#page .ter-navbar .navbar-nav > li:last-of-type {
+	border-bottom: 35px solid #00d2ff;
+	border-right: 12px solid transparent;
+	height: 0;
+	top: 7px;
+}
+#page .ter-navbar .navbar-nav li:first-of-type > a {
+	top:0;
+}
+#page .ter-navbar .navbar-nav li:last-of-type > a {
+	top:0;
+}
+#branding {
+	background: #263747;
+}
+
+/*  form override  */
+.searchform .form-control{
+	border-radius:0;
+	border:5px solid #384958;
+	margin-right:0;
+}
+.searchform input.btn {
+	margin:0;
+	padding:0;
+	background-color: orange;
+	border:0;
+	border-radius: 0;
+	width: 42px;
+	height: 34px;
+	position: absolute;
+	right: -22px;
+	top: 12px;
+	border: 5px solid #384958;
+	border-left: none;
+	color:white;
+}
+.searchform .form-group {
+	float:right;
+}
+
+/*  Horizontal Rule  */
+.ew-hr{
+	border-top: 3px solid #00d2ff;
+	margin-right: 75%;
+}

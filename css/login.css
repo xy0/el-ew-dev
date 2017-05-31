@@ -1,0 +1,5 @@
+body.login{background:#000 url(../graphics/atrain-bg.jpg) top center no-repeat}
+body.login div#login h1 a{background-image:url(../graphics/logo-login.png); width:300px; height:59px; background-size:auto}
+body.login form{background:#D5D0BD; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px}
+body.login form .button.button-primary{height:32px; background:#59AB68; border-color:#488854; opacity:.9}
+body.login form .button.button-primary:hover{background:#59AB68; border-color:#488854; opacity:1}
