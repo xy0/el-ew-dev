@@ -44,8 +44,8 @@ add_action( 'ew_counter', 'ew_enqueue_script' );
 
  // Add Font-Awesome icon CSS
 //
-wp_enqueue_style( 'font-awesome', '/wp-content/themes/terra-jr/lib/font-awesome-4.7.0/css/font-awesome.min.css');
-wp_enqueue_script( 'ew_counter', '/wp-content/themes/terra-jr/js/jquery.counterup.js', array('ter_waypoints') );
+wp_enqueue_style( 'font-awesome', '/wp-content/themes/expressline-efficiencyworks/lib/font-awesome-4.7.0/css/font-awesome.min.css');
+wp_enqueue_script( 'ew_counter', '/wp-content/themes/expressline-efficiencyworks/js/jquery.counterup.js', array('ter_waypoints') );
 
 
 /* <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~< A-Train Admin Branding >~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> */

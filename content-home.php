@@ -4,9 +4,9 @@
 	   <div class="content">
 	        <div class="table">
 	            <div class="table-cell">
-	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <img class="rs" src="/wp-content/themes/expressline-efficiencyworks/graphics/Business_Icon.png"/>
 	                <div class="text">
-	                	Buisness <i class='fa fa-caret-right'></i>
+	                	Business <i class='fa fa-caret-right'></i>
 	                </div>
 	            </div>
 	        </div>
@@ -16,7 +16,7 @@
 	   <div class="content">
 	        <div class="table">
 	            <div class="table-cell">
-	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <img class="rs" src="/wp-content/themes/expressline-efficiencyworks/graphics/Home_Icon.png"/>
 	                <div class="text">
 	                	Homes <i class='fa fa-caret-right'></i>
 	                </div>
@@ -28,7 +28,7 @@
 	   <div class="content">
 	        <div class="table">
 	            <div class="table-cell">
-	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <img class="rs" src="/wp-content/themes/expressline-efficiencyworks/graphics/Tool_Icon.png"/>
 	                <div class="text">
 	                	Service Providers <i class='fa fa-caret-right'></i>
 	                </div>
@@ -40,7 +40,7 @@
 	   <div class="content">
 	        <div class="table">
 	            <div class="table-cell">
-	                <img class="rs" src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"/>
+	                <img class="rs" src="/wp-content/themes/expressline-efficiencyworks/graphics/Clipboard_Icon.png"/>
 	                <div class="text">
 	                	Efficiency Resources <i class='fa fa-caret-right'></i>
 	                </div>

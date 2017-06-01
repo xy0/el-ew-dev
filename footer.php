@@ -4,66 +4,30 @@
 			<div class="container">	
 				<div class="col-xs-12 col-sm-3 footer-nav-col">
 					<div id="footer-nav-row-1" class="row footer-nav-row ew-footer-head">
-						<a href="#">Buisness</a>
+						<a href="#"><i class="fa fa-building" aria-hidden="true"></i>Buisness</a>
 					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Buisness Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Buisness Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Buisness Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Buisness Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Buisness Overview</a>
-					</div>
+					<?php wp_nav_menu(array('menu' => 'Footer 1')) ?>
 				</div>
 				<div class="col-xs-12 col-sm-3 footer-nav-col">
 					<div id="footer-nav-row-1" class="row footer-nav-row ew-footer-head">
-						<a href="#">Homes</a>
+						<a href="#"><i class="fa fa-home" aria-hidden="true"></i>Homes</a>
 					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Homes Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Homes Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Homes Overview</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Homes Overview</a>
-					</div>
+					<?php wp_nav_menu(array('menu' => 'Footer 2')) ?>
 				</div>
 				<div class="col-xs-12 col-sm-3 footer-nav-col">
 					<div id="footer-nav-row-1" class="row footer-nav-row ew-footer-head">
-						<a href="#">Service Providers</a>
+						<a href="#"><i class="fa fa-wrench" aria-hidden="true"></i>Service Providers</a>
 					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Service Providers Overview</a>
-					</div>
+					<?php wp_nav_menu(array('menu' => 'Footer 3')) ?>
 				</div>
 				<div class="col-xs-12 col-sm-3 footer-nav-col">
 					<div id="footer-nav-row-1" class="row footer-nav-row ew-footer-head">
-						<a href="#">Resources</a>
+						<a href="#"><i class="fa fa-list" aria-hidden="true"></i>Resources</a>
 					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Why Energy Efficiency?</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Why Energy Efficiency?</a>
-					</div>
-					<div class="row footer-nav-row">
-						<a href="#">Why Energy Efficiency?</a>
-					</div>
+					<?php wp_nav_menu(array('menu' => 'Footer 4')) ?>
 				</div>
 			</div><!-- /.container -->
 		</footer>
-		<?php ter_nav('standard','footer','navbar-default navbar-static-bottom') ?>	
 		<?php ter_back_to_top(1000,500) ?>	
 	</div><!-- /#page -->
 </div><!-- /#page-wrap - Opens in header -->

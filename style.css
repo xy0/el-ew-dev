@@ -64,9 +64,6 @@ Template: terra
 	/* <~~~~~~~~< END Quick Customization */	
 }
 
-@media (min-width: 992px){
-
-}
 
 @media (min-width: 1200px){
 
@@ -79,7 +76,9 @@ Template: terra
 }
 
 @media (max-width: 991px){
-
+	.ew-footer-head {
+	    font-size: 10pt !important;
+	}
 }
 
 @media (max-width: 767px){
@@ -98,6 +97,13 @@ Template: terra
 	float:right;
 }
 
+#content h1{
+	margin-right: 50%;
+	margin-top: 0;
+}
+#site-logo{
+	height: 100px;
+}
 /*  4 panel square span  */
 .ew-squares {
 	position:relative;
@@ -138,10 +144,21 @@ Template: terra
 .ew-squares .text{
 	width:100%;
 	padding:1em;
-	background-color: #00d2ff;
+	background-color: #00a6ce;
 	text-align: center;
 	font-weight: bold;
 	color: white;
+}
+.ew-squares .square{
+	text-align: center;
+}
+.ew-squares .content .rs{
+	margin-bottom:1em;
+	vertical-align: baseline;
+}
+
+.ew-squares .table-cell{
+	vertical-align: bottom;
 }
 
 /*  fast facts with numbers  */
@@ -160,10 +177,10 @@ Template: terra
 }
 
 .ew-yellow {
-	background-color: #ffae00;
+	background-color: #fcb525;
 }
 .ew-blue {
-	background-color: #00d2ff;
+	background-color: #00a6ce;
 }
 
 .ew-button {
@@ -172,7 +189,7 @@ Template: terra
 	padding: .3em 3em;
 	color: white;
 	border-radius: 0;
-	margin-top:3em;
+	margin-top:2em;
 }
 
 /*  Slider  */
@@ -207,13 +224,50 @@ Template: terra
 /*  footer  */
 .ew-footer-head {
 	font-weight: bold;
-	font-size: 15pt;
+	font-size: 14pt;
 	border-bottom: 3px solid grey;
 	margin-right: 30px;
 }
-
+.footer-nav-col li{
+	padding-bottom:.5em;
+}
+.ew-footer-head .fa {
+	color:#00a6ce;
+	margin-right:.5em;
+	margin-bottom: .5em;
+}
+.menu-footer-1-container{
+	margin-left: -1em;
+}
+#menu-footer-1{
+	padding-left: 0;
+	margin-left: 0;
+}
+.menu-footer-2-container{
+	margin-left: -1em;
+}
+#menu-footer-2{
+	padding-left: 0;
+	margin-left: 0;
+}
+.menu-footer-3-container{
+	margin-left: -1em;
+}
+#menu-footer-3{
+	padding-left: 0;
+	margin-left: 0;
+}
+.menu-footer-4-container{
+	margin-left: -1em;
+}
+#menu-footer-4{
+	padding-left: 0;
+	margin-left: 0;
+}
 #colophon {
 	background: #263747;
+	padding-top:1em;
+	font-size: 10pt;
 }
 
 #colophon a{
@@ -232,26 +286,26 @@ Template: terra
 	min-height:0;
 }
 .navbar-default{
-	border-bottom: 10px solid #00d2ff;
+	border-bottom: 10px solid #00a6ce;
 }
 .ter-navbar, .ter-navbar .slide-collapse {
 	background: #263747;
 }
 #page .ter-navbar .navbar-nav li > a {
 	padding-bottom: 0;
-	padding-top:.5em;
+	padding-top:.525em;
 	color:white;
-	background: #00d2ff;
+	background: #00a6ce;
 	top: 7px;
 }
 #page .ter-navbar .navbar-nav > li:first-of-type {
-	border-bottom: 35px solid #00d2ff;
+	border-bottom: 35px solid #00a6ce;
 	border-left: 12px solid transparent;
 	height: 0;
 	top: 7px;
 }
 #page .ter-navbar .navbar-nav > li:last-of-type {
-	border-bottom: 35px solid #00d2ff;
+	border-bottom: 35px solid #00a6ce;
 	border-right: 12px solid transparent;
 	height: 0;
 	top: 7px;
@@ -293,6 +347,6 @@ Template: terra
 
 /*  Horizontal Rule  */
 .ew-hr{
-	border-top: 3px solid #00d2ff;
+	border-top: 3px solid #00a6ce;
 	margin-right: 75%;
 }
